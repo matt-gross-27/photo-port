@@ -24,7 +24,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      <h1 data-testid="h1Tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         {/* name input */}
         <div>
@@ -51,7 +51,7 @@ function ContactForm() {
         )}
 
         {/* submit */}
-        <button type="submit">Submit</button>
+        <button data-testid="buttonTag" type="submit">Submit</button>
 
       </form>
     </section>
